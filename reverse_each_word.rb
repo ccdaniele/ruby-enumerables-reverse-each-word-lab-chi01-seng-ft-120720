@@ -3,7 +3,7 @@ new_array = []
 reverse = []
 new_array = string.split(" ")
 
-new_array.each do |string| 
+new_array.collect do |string| 
   reverse << string.reverse 
 end
 return reverse.join(" ")
