@@ -6,7 +6,7 @@ new_array = string.split(" ")
 new_array.each do |string| 
   reverse << string.reverse 
 end
-return reverse.join
+return reverse.join(" ")
 end
 
 
